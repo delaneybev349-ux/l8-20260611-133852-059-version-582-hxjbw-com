@@ -1,16 +1,14 @@
-﻿# website-upload-20260611-133852-059
+# 国产热门电影
 
-Batch 59 of 10. Contains extracted static website versions. The original zip files are not committed.
+这是根据上传素材生成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-581 | project-bolt-sb1-nrmujgkg - 副本-chatgpt (1) (moved 2).zip |
-| version-582 | project-bolt-sb1-nscxqa9x - 副本-chatgpt (1) (moved 1) (moved 1).zip |
-| version-583 | project-bolt-sb1-nscxqa9x - 副本-chatgpt (1) (moved 1).zip |
-| version-584 | project-bolt-sb1-nt7tuzra-chatgpt (1) (moved 2).zip |
-| version-585 | project-bolt-sb1-ntz6qpt1 - 副本-chatgpt (1).zip |
-| version-586 | project-bolt-sb1-ntz6qpt1-chatgpt (1) (moved 2).zip |
-| version-587 | project-bolt-sb1-nvknbyqy - 副本-chatgpt (1) (moved 1).zip |
-| version-588 | project-bolt-sb1-nvknbyqy-chatgpt (1) (moved 2).zip |
-| version-589 | project-bolt-sb1-nwbmpycd - 副本-chatgpt (1) (moved 1).zip |
-| version-590 | project-bolt-sb1-nwbmpycd - 副本-chatgpt (1) (moved 2).zip |
+- 影片数据：2000 部
+- 独立详情页：2000 个
+- 分类频道：10 个
+- 入口页面：index.html、categories.html、ranking.html、search.html、sitemap.html
+- 样式文件：assets/css/site.css
+- 交互文件：assets/js/site.js
+
+图片说明：页面已按顶级目录 1.jpg 到 150.jpg 引用封面与 Hero 图片。如果后续把图片放入网站根目录，页面会自动显示对应图片；未放入时使用 CSS 渐变背景兜底，避免页面空白。
+
+播放说明：详情页播放器使用 m3u8 播放方式，优先绑定原 JS 中提取的播放源，并内置 HLS 加载逻辑。
